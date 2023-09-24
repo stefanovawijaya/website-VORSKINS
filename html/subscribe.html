@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+   
+    <link rel="stylesheet" href="../css/subscribe.css">
+    <link rel="stylesheet" href="../css/home.css">
+
+    <script src="C:\Users\stefa\Downloads\pelajaran binus\semester dua\HCI\projecttt\project\js\subscribe.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="../gambar/vorskins.png" alt="VOrskins" height="100" class="center image">
+    </header>
+
+
+    <nav class="navbar">
+        <div class="navbar-menu">
+            <div class="navbar-item"><a href="home.html" class="navbar-link">Beranda</a></div>
+            <div class="navbar-item"><a href="promotions.html" class="navbar-link">Promosi</a></div>
+            <div class="navbar-item"><a href="products.html" class="navbar-link">Produk</a></div>
+            <div class="navbar-item dropdown">
+                <a class="navbar-link">VOrskins</a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-item"><a href="about.html" class="class dropdown-link">Tentang</a></div>
+                    <div class="dropdown-item"><a href="subscribe.html" class="class dropdown-link">Langganan</a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    
+    <div class="error-message">
+        <h1 id="error"></h1>
+    </div>
+
+
+    
+    <form action="">
+        <div class="input-container">
+            <div class="label-container">
+                <label for="">Nama lengkap:</label>
+            </div>
+            
+            <input type="text" id="namaLengkap" autofocus >
+            
+            <p id="nama"></p>
+        </div>
+        
+        <div class="input-container">
+            <div class="label-container">
+                <label for="">Alamat email:</label>
+            </div>
+            
+            <input type="email" id="alamatEmail">
+            
+            <p id="email"></p>
+        </div>
+
+        <div class="input-container">
+            <div class="label-container">
+                <label for="">Nomor telepon:</label>
+            </div>
+            
+            <input type="tel" id="nomorTelp" placeholder="081234567890" >
+            <small>Format: 081234567890</small>
+            <p id="telp"></p>
+        </div>
+
+        <div class="input-container">
+            <div class="label-container">
+                <label for="">Preferensi:</label>
+            </div>
+            
+            <input type="radio" id="skinCare" >
+            <label for="">perawatan kulit</label>
+            <input type="radio" id="bodyCare" >
+            <label for="">perawatan tubuh</label>
+
+           
+            <p id="skin"></p>
+        </div>
+
+        <div class="input-container">
+            <div class="label-container">
+                <label for="">Apakah anda setuju untuk menerima surat kabar?</label>
+            </div>
+            
+            <input type="checkbox" id="confirmation" >
+            <label for="">Ya, saya setuju</label>
+           
+            <p id="confirm"></p>
+        </div>
+
+        
+
+
+        
+        <div class="input-container">
+            <input type="submit" value="Submit" id="submitButton">
+            <input type="reset">
+        </div>
+    </form>
+    <!-- <script src="subscribe.js"></script> -->
+    <br>
+
+    <footer>
+        <h4>Tentang Kami</h4>
+        <br>
+        
+        <h5><a href="https://instagram.com/onyour__step" target="_blank"><img src="../gambar/instagram.png" alt="instagram" height="35" style="vertical-align: middle;"></a><a href="https://instagram.com/onyour__step" target="_blank" class="alink">Click here!</a></h5>
+        
+        <h5><a href="https://twitter.com/Stefano21049113" target="_blank"><img src="../gambar/twitter.png" alt="twitter" height="35" style="vertical-align: middle;"></a><a href="https://twitter.com/Stefano21049113" target="_blank" class="alink">Click here!</a></h5>
+
+    </footer>
+</body>
+</html>

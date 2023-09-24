@@ -1,0 +1,17 @@
+
+.label-container{
+    margin-bottom: 10px;
+    background-color: #a1fcb3;
+}
+    
+.input-container{
+    margin-bottom: 15px;
+    background-color: #dafae1; 
+}
+
+#error{
+    text-align: left;
+    color: #357f2b;
+    display: none;
+    background-color: #69c85d;
+}
